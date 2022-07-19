@@ -1,3 +1,136 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/*Main component css */
+body{
+    @apply m-0 p-0 box-border
+}
+    .container{
+        @apply w-[80%] m-auto bg-slate-100
+       }
+    
+.header{
+    @apply bg-purple-600 h-[60px] flex text-white px-3
+    
+    }
+.header--img{
+@apply rounded-full p-2 hover:h-[90%]
+}
+.header--title{
+    @apply mr-auto text-3xl mt-3 font-semibold
+}
+.project--name{
+@apply text-[15px] mt-5
+}
+.main{
+    @apply w-auto pb-[20px] px-24 text-center
+}
+.main--article{
+    @apply pt-16 text-[18px] text-center pb-10 text-slate-500
+}
+.main--name{
+    @apply text-purple-600 text-[20px]
+}
+.show--case{
+    
+}
+.button{
+    @apply rounded-[1px]  bg-purple-600 hover:bg-purple-700 
+        delay-200 py-1 w-[60%] text-white font-semibold text-2xl ml-[20%]
+}
+.default--photo{
+@apply w-[60%] h-[300px] ml-[20%] pb-5
+}
+.social{
+    @apply flex top-[30%] fixed flex-col
+
+
+}
+.social--img{
+    @apply pt-3 w-6 
+}
+.button--photo_flex{
+    @apply flex justify-center
+}
+.button--img{
+    @apply p-2 h-[40px] w-[45px]
+}
+.copyright{
+    @apply text-slate-500 pt-2
+}
+.footer{
+    @apply text-center text-slate-100
+    
+}
+@media (max-width: 768px) {
+    .container{
+        @apply w-[100%]
+       }
+    .header{
+        @apply h-[50px] px-8
+        
+        }
+    .header--title{
+        @apply text-2xl mt-2 
+    }
+    .project--name{
+    @apply text-[12px] mt-4
+    }
+}
+@media (max-width: 480px) {
+    .header{
+        @apply px-[5px]
+        
+        }
+    .header--title{
+        @apply text-[14px] mt-2 font-extrabold
+    }
+    .project--name{
+    @apply text-[12px] font-semibold
+    }
+    .main{
+        @apply p-8
+    }
+    .main--article{
+        @apply pt-5
+    }
+    .button{
+        @apply w-[100%] ml-[0]
+    }
+    .default--photo{
+        @apply w-[100%] h-[250px] ml-[0]
+        }
+}
+@media (max-width: 320px) {
+    .main--article{
+        @apply text-[14px]
+    }
+    .button{
+        @apply text-[17px]
+    }
+    .button--img{
+        @apply w-10 h-8
+    }
+    .copyright{
+        @apply text-[12px]
+}
+}
+@media (max-width: 310px){
+    .header{
+        @apply px-0
+        }
+    .header--title{
+        @apply text-[10px] mt-2 font-extrabold
+    }
+    .project--name{
+    @apply text-[10px] font-semibold
+    }
+    .button{
+        @apply text-[10px]
+    }
+    .copyright{
+        @apply text-[10px]
+    }
+}
