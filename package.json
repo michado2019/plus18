@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "homepage": "https://michado2019.github.io/photo-generator",
+=======
+  "homepage": "https://michado2019.github.io/image-generator",
+>>>>>>> master
   "name": "project-1",
   "version": "0.1.0",
   "private": true,
