@@ -31,7 +31,7 @@ function App() {
           className="header--img"
         />
         <h1 className="header--title">Photo Generator</h1>
-        <p className="project--name">project-1</p>
+        <p className="project--name">Photo Genator</p>
 
       </div>
       <div className="main">
