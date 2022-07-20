@@ -55,10 +55,10 @@ function App() {
 
       </div>
       <div className='social'>
-        <a href='https://github.com/michado2019' target="_blank" rel='noreferrer'>
+        <a href='https://twitter.com/Mike_Adeshina' target="_blank" rel='noreferrer'>
           <img src='twitter--icon.png' alt='img' className='social--img' />
         </a>
-        <a href='https://twitter.com/Mike_Adeshina' target="_blank" rel='noreferrer'>
+        <a href='https://github.com/michado2019' target="_blank" rel='noreferrer'>
           <img src='github--icon.png' alt='img' className='social--img' />
         </a>
         <a href='https://www.linkedin.com/in/adeshina-obafemi-a14045238/' target="_blank" rel='noreferrer'>
