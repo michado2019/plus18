@@ -2,7 +2,7 @@
 import React from 'react'
 import PhotosDataBase from './components/PhotosDataBase';
 
-const name = prompt("Enter your name")
+const name = prompt("Please, enter your name")
 
 function App() {
   
