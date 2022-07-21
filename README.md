@@ -1,4 +1,4 @@
 # Tailwind CSS used
 
-View using: https://michado2019.github.io/photo-generator/
+View using:  https://michado2019.github.io/image-generator/
 
