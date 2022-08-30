@@ -61,7 +61,7 @@ function App() {
         <a href='https://github.com/michado2019' target="_blank" rel='noreferrer'>
           <img src='github--icon.png' alt='img' className='social--img' />
         </a>
-        <a href='https://www.linkedin.com/in/adeshina-obafemi-a14045238/' target="_blank" rel='noreferrer'>
+        <a href='https://www.linkedin.com/in/adeshina-michael-a14045238/' target="_blank" rel='noreferrer'>
           <img src='linked--in_icon.png' alt='img' className='social--img' />
         </a>
       </div>
