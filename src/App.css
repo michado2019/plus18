@@ -1,0 +1,4 @@
+.appWrapper{
+    margin: 0 auto;
+    @apply max-w-[60%] bg-[#111111] h-[100vh]
+}
