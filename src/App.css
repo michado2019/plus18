@@ -2,7 +2,9 @@
     margin: 0 auto;
     @apply max-w-[70%] bg-[#111111] h-[100%]
 }
-
+.appNotQualify{
+  @apply text-red-900 text-center text-[24px] mt-5
+}
   .appFlex {
     @apply text-[#ffffff] flex flex-col justify-between py-[40px] px-[20%] items-center;
   }
@@ -18,4 +20,18 @@
   .appSubmit-btn:hover{
     transition: all 0.3s;
     @apply bg-green-500
+}
+@media (max-width: 600px) {
+  .appWrapper{
+    @apply max-w-[100%] h-[100vh]
+}
+.appBirth-year {
+  @apply mt-[20px]
+}
+.appBirth-input {
+  @apply rounded-sm w-[100%] mt-[30px]
+}
+.appSubmit-btn{
+    @apply mt-[50px]
+}
 }

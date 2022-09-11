@@ -33,3 +33,11 @@
 .photoDisplay-enjoy_btn {
   @apply border-t-2 border-b-2 text-[#555] text-[12px];
 }
+@media (max-width: 425px) {
+  .photoDisplay-app_name {
+    @apply ml-[80%]
+  }
+  .photoDisplay-flex {
+    @apply w-[80%] border-[2px] border-[#5e1b1b] mb-[20px] h-[300px] rounded-lg py-3 flex flex-col items-center;
+  }
+}

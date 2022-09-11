@@ -18,29 +18,32 @@ export default function App() {
     event.preventDefault()
     setSubmit(birthYear)
     if (birthYear > 2004 || birthYear === '') {
-      alert('You are not qualify to view this content!');
+      document.querySelector('.appNotQualify').innerText = 'You are not qualify to view this content!';
       return;
     }
     setDisplay(
-      (submit > 2004) ? '': <PhotoDisplay /> 
-      )
+      (submit > 2004) ? '' : <PhotoDisplay />
+    )
   }
 
   return (
     <div className='appWrapper'>
       <Navbar />
+      {display ? '' :
+        <div className='appNotQualify'></div>
+      }
       {display}
-    <div>
-      {display ? '' : 
-        <form className='appFlex'>
+      <div>
+        {display ? '' :
+          <form className='appFlex'>
             <span className='appBirth-year'>Birth Year:</span>
-            <input type='number' placeholder='Enter year of birth to unlock' className='appBirth-input' onChange={handleChange}/>
+            <input type='number' placeholder='Enter year of birth to unlock' className='appBirth-input' onChange={handleChange} />
             <button className='appSubmit-btn' onClick={handleSubmit}>Submit</button>
-        </form>}
-    </div>
-      <div>{display ? 
-      <Sides /> : ''
-    }</div>
+          </form>}
+      </div>
+      <div>{display ?
+        <Sides /> : ''
+      }</div>
       <Footer />
     </div>
   )

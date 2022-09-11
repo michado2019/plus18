@@ -13,4 +13,13 @@
 .navbarGithub {
   @apply text-[#dcdbdb] px-2 text-[18px];
 }
+@media (max-width: 425px) {
+  .navbarWrapper {
+    @apply px-[10px];
+  }
+  
+  .navbarLogo {
+    @apply text-[22px] 
+  }
+}
 
