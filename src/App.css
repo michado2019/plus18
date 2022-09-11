@@ -10,10 +10,10 @@
     @apply italic text-[18px];
   }
   .appBirth-input {
-    @apply rounded-sm w-[70%] text-[12px] outline-none bg-[#2e2e2e] py-1 pl-2 pr-1 text-[#ffffff];
+    @apply rounded-sm w-[70%] text-[16px] outline-none bg-[#2e2e2e] py-2 pl-3 pr-1 text-[#ffffff] mt-[10px]
   }
   .appSubmit-btn{
-      @apply bg-green-900 py-1 px-7 rounded-md mt-[10px]
+      @apply bg-green-900 py-2 px-8 rounded-md mt-[30px]
   }
   .appSubmit-btn:hover{
     transition: all 0.3s;
