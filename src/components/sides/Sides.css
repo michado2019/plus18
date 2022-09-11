@@ -1,11 +1,11 @@
 .sidesWrapper{
-    @apply text-[#ffffff] flex justify-between items-end mt-[-250px] px-[1%] 
+    @apply text-[#ffffff] flex justify-between items-end mt-[-310px] px-[1%] 
 }
 .sideLeft-icons{
-    @apply w-[30px] h-[30px] mt-10
+    @apply w-[30px] h-[30px] mt-10 
 }
 .sidesRight {
-    @apply text-[11px] bg-[#181818] p-2 rounded-md
+    @apply text-[11px] bg-[#181818] p-2 rounded-md 
 }
 @media (max-width: 425px) {
     .sideLeft-icons{

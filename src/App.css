@@ -23,7 +23,7 @@
 }
 @media (max-width: 600px) {
   .appWrapper{
-    @apply max-w-[100%] h-[100vh]
+    @apply max-w-[100%] h-[100%]
 }
 .appBirth-year {
   @apply mt-[20px]

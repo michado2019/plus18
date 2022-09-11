@@ -1,6 +1,11 @@
-.footerWrapper{
-    @apply text-[#ffffff] mt-[80px] text-center
+.footerWrapper {
+  @apply text-[#ffffff] mt-[80px] text-center;
 }
-.footerCopyright{
-    @apply text-[13px] pb-3
+.footerCopyright {
+  @apply text-[13px] pb-3;
+}
+@media (max-width: 320px) {
+    .footerWrapper {
+        @apply mt-[120px] 
+      }
 }
