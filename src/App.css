@@ -1,4 +1,21 @@
 .appWrapper{
     margin: 0 auto;
-    @apply max-w-[60%] bg-[#111111] h-[100vh]
+    @apply max-w-[70%] bg-[#111111] h-[100%]
+}
+
+  .appFlex {
+    @apply text-[#ffffff] flex flex-col justify-between py-[40px] px-[20%] items-center;
+  }
+  .appBirth-year {
+    @apply italic text-[18px];
+  }
+  .appBirth-input {
+    @apply rounded-sm w-[70%] text-[12px] outline-none bg-[#2e2e2e] py-1 pl-2 pr-1 text-[#ffffff];
+  }
+  .appSubmit-btn{
+      @apply bg-green-900 py-1 px-7 rounded-md mt-[10px]
+  }
+  .appSubmit-btn:hover{
+    transition: all 0.3s;
+    @apply bg-green-500
 }

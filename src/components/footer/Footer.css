@@ -1,0 +1,6 @@
+.footerWrapper{
+    @apply text-[#ffffff] mt-[80px] text-center
+}
+.footerCopyright{
+    @apply text-[13px] pb-3
+}

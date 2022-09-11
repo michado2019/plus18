@@ -3,4 +3,9 @@
 @tailwind utilities;
 
 
-
+body{
+    background-image: url('../public/images/background-img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,13 +1,16 @@
-.navbarWrapper{
-    @apply h-[70px] text-[#ffffff] py-[15px] border-b-2 border-[#973434] bg-red-900 px-[25px]
+.navbarWrapper {
+  @apply h-[65px] text-[#ffffff] py-[15px] border-b-2 border-[#973434] bg-red-900 px-[25px];
 }
 
-.navbarFlex{
-    @apply flex items-center 
+.navbarFlex {
+  @apply flex items-center;
 }
-.navbarLogo{
-    @apply text-[24px] font-bold text-[#e3e0e0] mr-auto
+.navbarLogo {
+  @apply text-[24px] font-bold text-[#e3e0e0] mr-auto;
 }
-.navbarHome, .navbarGithub{
-    @apply text-[#dcdbdb] px-2 text-[18px]
+
+.navbarHome,
+.navbarGithub {
+  @apply text-[#dcdbdb] px-2 text-[18px];
 }
+
